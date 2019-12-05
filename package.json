@@ -1,0 +1,24 @@
+{
+    "name": "helpers",
+    "version": "1.0.0",
+    "description": "A serie of frontend helpers",
+    "main": "index.js",
+    "repository": "git@github.com:vandoenterprise/frontend-helpers.git",
+    "author": "Evandro Barbosa<evandro.barbosa@yahoo.com.br>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "parcel ./index.ts",
+        "build": "parcel build ./index.ts",
+        "start": "parcel ./index.html"
+    },
+    "dependencies": {
+        "axios": "^0.19.0"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^2.10.0",
+        "@typescript-eslint/parser": "^2.10.0",
+        "eslint": "^6.7.2",
+        "parcel-bundler": "^1.12.4",
+        "typescript": "^3.7.2"
+    }
+}
